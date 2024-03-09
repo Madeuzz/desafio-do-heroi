@@ -3,7 +3,8 @@ let nome = "Madeuz"
 let xp = 500
 let lv = ""
 
-console.log("Bem-Vindo " + nome + " sua aventura começa agora!")
+//Interpolação de String
+console.log(`Bem-Vindo ${nome} sua aventura começa agora`)
 
 //Estrutura de repetição para sempre aumentar a experiência do herói, e mostrar em qual nível se encontra.
 for(i=1;i<10;i++){
