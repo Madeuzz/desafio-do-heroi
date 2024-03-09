@@ -1,11 +1,14 @@
+//Declaração das variaveis.
 let nome = "Madeuz"
 let xp = 500
 let lv = ""
 
 console.log("Bem-Vindo " + nome + " sua aventura começa agora!")
 
+//Estrutura de repetição para sempre aumentar a experiência do herói, e mostrar em qual nível se encontra.
 for(i=1;i<10;i++){
 
+// Utilização de if, else para definir o nível atual do herói.
     if(xp >= 0 && xp <= 1000){
         lv = "Ferro"
     }else if(xp >= 1001 && xp <= 2000){
@@ -29,6 +32,7 @@ for(i=1;i<10;i++){
     console.log("Atualmente seu nível é de: " + lv)
 }
 
+//Contatenação de texto para exbição.
 console.log("O Herói de nome " + nome + " está no nível: " + lv + "! Está com: " 
 + xp + " pontos de experiência. Faltam " + (10001 - xp) + " pontos de experiência para atingir o nível: Radiante!" )
 
